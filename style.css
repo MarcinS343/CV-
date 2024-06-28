@@ -16,6 +16,15 @@ header {
     padding: 20px 0;
     text-align: center;
 }
+header img.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    display: block;
+    margin: 0 auto 20px auto;
+}
 section {
     margin: 20px 0;
 }
