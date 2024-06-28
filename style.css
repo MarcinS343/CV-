@@ -13,8 +13,9 @@ body {
 header {
     background-color: #4caf50;
     color: white;
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
+    position: relative;
 }
 header img.profile-photo {
     width: 150px;
@@ -27,6 +28,7 @@ header img.profile-photo {
 }
 section {
     margin: 20px 0;
+    text-align: left;
 }
 h2 {
     color: #4caf50;
