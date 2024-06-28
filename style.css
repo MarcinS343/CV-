@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+header img.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 75px);
+}
+section {
+    margin: 20px 0;
+    text-align: left;
+}
+h2 {
+    color: #4caf50;
+}
+.job, .interest {
+    background-color: #f0fff0;
+    border: 1px solid #c5e1a5;
+    padding: 10px;
+    margin: 10px 0;
+}
